@@ -1,0 +1,720 @@
+/* * * * * * * * *
+ *               *
+ *  MEDIA QUERY  *
+ *               *
+ * * * * * * * * */
+
+@media screen and (max-width: 600px) {
+  ul#sleepy li, ul#focus li, ul#pickypicky li, ul#wakingupnow li, ul#productivitygoddess li {
+  	float: none;
+  	width: 100%;
+  	font-size: 3rem;
+  }
+}
+
+html {
+	font-size: 1vw;
+	background-color: #000000
+}
+
+/* * * * * * * * * * *
+ *                   *
+ * RITUAL  &  STORY  *
+ *                   *
+ * * * * * * * * * * */
+
+#ritual {
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+
+#story {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+#story img.morning {
+	width: 100%;
+	height: auto;
+	border-radius: 3rem;
+}
+
+#story img.rainbow {
+	width: 100%;
+	height: auto;
+	border-radius: 2rem;
+}
+
+#story img.beparticular {
+	width: 100%;
+	height: auto;
+	border-radius: 1rem;
+}
+
+#story img.sniffsniff {
+	width: 100%;
+	height: auto;
+	border-radius: .3rem;
+}
+
+#story img.iheartcoffee {
+	width:100%;
+	height: auto;
+	margin: 0%;
+}
+
+a:link {
+	color: #a0552c;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a0552c;
+}
+
+
+#aftertaste {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 2rem;
+	clear: both;
+	padding-bottom: 1%;
+}
+
+/* * * * * * * * * * * * *
+ *                       *
+ *  SLEEPWALKING . . .   *
+ *                       *
+ * * * * * * * * * * * * */
+
+#sleepy {
+	list-style-type: none;
+	background-color: #595952;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 3rem;
+	border: .1rem solid #595952;
+	border-radius: 2rem;
+	-moz-border-radius: 2rem;
+	-webkit-border-radius: 2rem;
+}
+
+#sleepy ul {
+	padding: 1%;
+	list-style-position: inside;
+}
+
+#sleepy li {
+	float: left;
+	width: calc(100%/5);
+}
+
+#sleepy li a {
+	display: block;
+	padding: 2% 0 2% 0;
+}
+
+#sleepy a:link {
+	color: #bcbcb7;
+	text-decoration: none;
+}
+
+#sleepy a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#sleepy a:hover {
+	background-color: #595952;
+	color: #2E313F;
+}
+
+/* * * * * * * * *
+ *               *
+ * BLINK, BLINK  *
+ *               *
+ * * * * * * * * */
+
+#blearyeyes {
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color: #2E313F;
+	padding: 1%;
+	margin-bottom: 2%;
+}
+
+body.riseandshine {
+	background-color: #2E313F;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2.6rem;
+	color:#D6D0B1;
+}
+
+p.fuzzy {
+	line-height: 3.5rem;
+}
+
+p.anticipation {
+	text-align: right;
+}
+
+a.morning:link {
+	color: #D6D0B1;
+	text-decoration: none;
+}
+
+a.morning:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.morning:hover {
+	color: #96a394;
+}
+
+img.getup, .sowarm {
+	float: right;
+	width: 30%;
+	height: auto;
+	margin:2% 0% 2% 2%;
+	border-radius: 4rem;
+}
+
+img.storytime {
+	float: left;
+	width: 45%;
+	height:auto;
+	margin:2% 2% 2% 0%;
+	border-radius:4rem;
+}
+
+img.wakeywakey {
+	float: left;
+	width: 28%;
+	height:auto;
+	margin:2% 2% 2% 0%;
+	border-radius: 4rem;
+}
+
+/* * * * * * * * * * * * * * * * *
+ *                               *
+ * COLORS OF THE COFFEE RAINBOW  *
+ *                               *
+ * * * * * * * * * * * * * * * * */
+
+#focus {
+	list-style-type: none;
+	background-color: #5f4b68;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	font-family: 'Neucha', cursive;
+	font-size: 3rem;
+	border: .1rem solid #5f4b68;
+	border-radius: 2rem;
+	-moz-border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+}
+
+#focus ul {
+	padding: 1%;
+	list-style-position: inside;
+}
+
+#focus li {
+	float: left;
+	width: calc(100%/5);
+}
+
+#focus li a {
+	display: block;
+	padding: 2% 0 2% 0;
+}
+
+#focus a:link {
+	color: #96a394;
+	text-decoration: none; 
+}
+
+#focus a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#focus a:hover {
+	background-color: #5f4b68; 
+	color: #d6be53;
+}
+
+#roasty {
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color: #4f4359;
+	padding: 1%;
+	margin-bottom: 2%;
+	overflow: hidden;
+
+}
+
+/* * * * * * * *
+ *             *
+ *  ROASTED!   *
+ *             *
+ * * * * * * * */
+
+body.thatbeautifulbean {
+	background-color:#4f4359;
+	font-family: 'Neucha', cursive;
+	font-size: 2.4rem;
+	color: #e0e0d5;
+}
+
+p.cityroast {
+	line-height: 3.1rem;
+}
+
+img.gimmiecoffee {
+	float: right;
+	width: 28%;
+	height:auto;
+	margin:2% 0% 2% 2%;
+	border-radius: 1rem;
+}
+
+img.gingerroast {
+	float: left;
+	width: 25%;
+	height:auto;
+	margin:2% 2% 2% 0%;
+	border-radius: 1rem;
+}
+
+img.glossisboss {
+	float: right;
+	width: 48%;
+	height:auto;
+	margin:2% 0% 2% 2%;
+	border-radius: 1rem;
+}
+
+a.roast:link {
+	color: #e0e0d5;
+	text-decoration: none;
+}
+
+a.roast:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.roast:hover {
+	color: #f9e37f;
+}
+
+/* * * * * * * * * * * * * * * * *
+ *                               *
+ * THIS IS HOW YOU BREW IT, BABY *
+ *                               *
+ * * * * * * * * * * * * * * * * */
+
+#pickypicky {
+	list-style-type: none;
+	background-color: #c17d6a;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	font-family: 'Bitter', serif;
+	font-size: 2.5rem;
+	border: .1rem solid #c17d6a;
+	border-radius: .8rem;
+	-moz-border-radius: .8rem;
+	-webkit-border-radius: .8rem;
+}
+
+#pickypicky ul {
+	padding: 1%;
+	list-style-position: inside;
+}
+
+#pickypicky li {
+	float: left;
+	width: calc(100%/5);
+}
+
+#pickypicky li a {
+	display: block;
+	padding: 2% 0 2% 0;
+}
+
+#pickypicky a:link {
+	color: #352c23;
+	text-decoration: none;  
+}
+
+#pickypicky a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#pickypicky a:hover {
+	background-color: #c17d6a;
+	color: #f9e37f;
+}
+
+/* * * * * * * * * * * * * * *
+ *                           *
+ * NO, REALLY. DO IT MY WAY. *
+ *                           *
+ * * * * * * * * * * * * * * */
+
+#madnesstoyourmethod {
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color: #ce9180;
+	padding: 1%;
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+
+body.highmaintenance {
+	background-color: #ce9180;
+	font-family: 'Dosis', sans-serif;
+	font-size: 2.2rem;
+	color: #352c23;
+}
+p.precise {
+	line-height: 3rem;
+}
+
+#elitist {
+	border: .4rem dotted #352c23;
+	border-radius: .8rem;
+}
+
+ol.refinement{
+	line-height: 3.5rem;
+	padding-left: 4rem;
+}
+
+img.therightway {
+	float: right;
+	width: 35%;
+	height:auto;
+	margin: 0% 0% 2% 2%;
+	border-radius: .8rem;
+}
+
+img.alchemy{
+	float:left;
+	width: 50%;
+	margin: 1% 2% 2% 0%;
+	border-radius: .8rem;
+}
+
+.suckyscience {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.suckyscience iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 2%;
+   width: 100%;
+}
+
+a.brew:link {
+	color: #352c23;
+	text-decoration: none;
+}
+
+a.brew:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.brew:hover {
+	color: #ffeb11;
+}
+
+/* * * * * * * * * * * *
+ *                     *
+ * TASTE IS 80% SMELL  *
+ *                     *
+ * * * * * * * * * * * */
+
+ #wakingupnow {
+	list-style-type: none;
+	background-color: #99af8e;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	font-family: 'Rhodium Libre', serif;
+	font-size: 2.5rem;
+	border: .2rem solid #352c23;
+	border-radius: .3rem;
+	-moz-border-radius: .3rem;
+	-webkit-border-radius: .3rem;
+}
+
+#wakingupnow ul {
+	padding: 1%;
+	list-style-position: inside;
+}
+
+#wakingupnow li {
+	float: left;
+	width: calc(100%/5);
+}
+
+#wakingupnow li a {
+	display: block;
+	padding: 2% 0 2% 0;
+}
+
+#wakingupnow a:link {
+	color: #352c23;
+	text-decoration: none;  
+}
+
+#wakingupnow a:visited { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#wakingupnow a:hover {
+	background-color: #99af8e;
+	color: #ffeb11;
+}
+
+/* * * * * * * * * * * * * * * * *
+ *                               *
+ * FRUIT, BARLEY, COCOA, LEATHER *
+ *                               *
+ * * * * * * * * * * * * * * * * */
+
+#honeychocolatecitrus {
+	width: 100%;
+	height: auto;
+	float: right;
+	background-color: #f2ddab;
+	padding: 1%;
+	margin-bottom: 2%;
+	overflow: hidden;
+}
+
+body.amoraroma {
+	background-color: #f2ddab;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.7rem;
+	color: #352c23;
+}
+
+p.floralnotes {
+	line-height: 2.5rem;
+}
+
+img.followyournose {
+	float:left;
+	width: 50%;
+	margin: 1% 2% 0% 0%;
+	border-radius: .3rem;
+}
+
+img.magicsniffer {
+	float: right;
+	width: 35%;
+	height:auto;
+	margin: 0% 0% 2% 2%;
+	border-radius: .3rem;
+}
+
+a.smell:link {
+	color: #352c23;
+	text-decoration: none;
+}
+
+a.smell:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.smell:hover {
+	color: #c10336;
+}
+
+/* * * * * * * * * * * * * * * * 
+ *                             *
+ * BUZZING BUZZING EVERYWHERE  *
+ *                             *
+ * * * * * * * * * * * * * * * */
+
+ #productivitygoddess {
+	list-style-type: none;
+	background-color: #efb1be;
+	margin: 0;
+	overflow: hidden;
+	text-align: center;
+	padding: 0;
+	font-family: 'Kreon', serif;
+	font-size: 3rem;
+	border: .2rem solid #352c23;
+}
+
+#productivitygoddess ul {
+	padding: 1%;
+	list-style-position: inside;
+	margin: 0%;
+}
+
+ #productivitygoddess li {
+	float: left;
+	width: calc(100%/5);
+}
+
+ #productivitygoddess li a {
+	display: block;
+	padding: 2% 0 2% 0;
+}
+
+ #productivitygoddess a:link {
+	color: #352c23;
+	text-decoration: none;  
+}
+
+ #productivitygoddess a:visited { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+ #productivitygoddess a:hover {
+	background-color: #efb1be;
+	color: #ffea0a;
+}
+
+/* * * * * * * * * * * * * * * * * * *
+ *                                   *
+ * COFFEE MAKES MAGICIANS OF US ALL  *
+ *                                   *
+ * * * * * * * * * * * * * * * * * * */
+
+body.projectsfordayz {
+	background-image: url("../images/coffeebackground.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.7rem;
+	color: #000000;
+}
+
+h2{
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 0;
+}
+
+p.flyinghigh {
+	line-height: 2.5rem;
+}
+
+
+#coffeehouse {
+	width: 100%;
+	height: auto;
+	float: right;
+	padding: 2%;
+	margin-bottom: 2%;	
+}
+
+.onceuponatime {
+	width: 25%;
+	height: auto;
+	float: left;
+	background-color: #f7f5ed;
+	margin: 0%;
+	font-size: 1.8rem;
+	padding: 1%;
+	border: .2rem solid #000000;
+	overflow: hidden;
+}
+
+img.aboutus {
+	float:left;
+	width: 100%;
+	margin: 1% 2% 0% 0%;
+}
+
+.ambiance {
+	width: 68%;
+	height: auto;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 1%;
+	margin: 0%;
+}
+
+.theincrowd {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.youonlythinkyoureawesome {
+	width: 30%; /* 3x3 */
+	height: auto;
+	margin-bottom: 4%;
+}
+
+a.bio:link {
+	color: #3b665d;
+	text-decoration: none;
+}
+
+a.bio:visited {
+	color: #ce7171;
+	text-decoration: none;
+}
+
+a.bio:hover {
+	color: #3b665d;
+}
+
+
+a.savor:link {
+	color: #352c23;
+	text-decoration: none;
+}
+
+a.savor:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.savor:hover {
+	color: #f7663d;
+}
+
+.theincrowd img {
+    max-width: 100%;
+    height: auto;
+}
+
