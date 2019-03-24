@@ -1,5 +1,7 @@
 # Morning Coffee: Programming as an art form
 
+###### A website built using [GitHub Pages](https://pages.github.com/).
+
 During my last year at university, our Digital Document Design professor assigned to his students a 5-page, static website, using HTML5 and CSS3. The subject matter could be anything we liked, so long as we provided general information, links to commentary on the subject from other sources, embedded video, and a gallery of images. 
 
 I chose coffee, part of a beloved morning ritual. 
