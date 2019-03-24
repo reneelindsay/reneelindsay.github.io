@@ -10,7 +10,7 @@ Aside from classwork on markup languages, I have semi-regular programming sessio
 
 John believes that programming is an art form. Written with care and cleverness, code offers layers of meaning to uncover and enjoy. To this end, I created not only a website about coffee, but with naming conventions and comments that reflected not only the function of each class and id, but described the experience of savoring a cup of freshly ground coffee in the company of a fuzzy feline.
 
-For example, in HTML, the `<div>` that marks each page footer is named `aftertaste`, to conjure an image of flavor notes that linger after the body of the experience. The wrapper is named `ritual`, indicating that the entire project is wrapped in the comforts and rhythms of the dance of waking up. Accessibility is a concern, so I included alternate text for screen readers.
+For example, in HTML, the `<div>` that marks each page footer is named `aftertaste`, to conjure an image of flavor notes that linger after the body of the experience. The wrapper is named `ritual`, indicating that the entire project is wrapped in the comforts and rhythms of the dance of waking up. Accessibility is important, so I included alternate text on the images for screen readers.
 
 The HTML files are meant to be read a bit like a book. Each has a commented “chapter” between the head and the body. For example, in `roast.html`, it reads as follows:
 
